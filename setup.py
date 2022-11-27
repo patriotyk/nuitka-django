@@ -17,12 +17,11 @@ requires = [
 setup(
     name='nuitka-django',
     version=version,
-    #packages=['nuitka_dgango'],
+    packages=['nuitka_django'],
     python_requires=">=2.7",
     install_requires=requires,
     include_package_data=True,
     license='MIT License',
-    copyright='Copyright 2022 Serhiy Stetskovych',
     description='build command for django to easly build django project with nuitka',
     url='https://github.com/patriotyk/nuitka-django',
     author='Serhiy Stetskovych',
