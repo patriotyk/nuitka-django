@@ -17,7 +17,7 @@ requires = [
 setup(
     name='nuitka-django',
     version=version,
-    packages=['nuitka_django'],
+    packages=['nuitka_django', 'nuitka_django.management.commands', 'nuitka_django.entrypoints'],
     python_requires=">=2.7",
     install_requires=requires,
     include_package_data=True,
