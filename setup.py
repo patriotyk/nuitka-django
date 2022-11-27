@@ -12,6 +12,8 @@ version = '0.0.1'
 requires = [
     'Django<=4.1',
     'six',
+    'zstandard',
+    'ordered-set'
 ]
 
 setup(
